@@ -1,0 +1,6 @@
+applications:
+- name: SpringBootMySQLTicketDemo-pcf
+path: target\spring-mysql-0.0.1-SNAPSHOT.jar
+memory: 650M
+services:
+- MySQLTestDB
